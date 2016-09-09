@@ -1,7 +1,6 @@
 import css    from "./styles.css"
 import React  from "react"
 import Button from "../Button"
-import Icon   from "../Icon"
 
 export default class Form extends React.Component {
   constructor (props) {

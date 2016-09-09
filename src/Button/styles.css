@@ -1,0 +1,25 @@
+:local(.Button) {
+  background:transparent;
+  color:tomato;
+  fill:currentColor;
+  background:rgba(0,0,0,0.05);
+  border-radius:2px;
+  padding:0 8px;
+  display:flex;
+  align-items:center;
+  font-size:13px;
+  line-height:32px;
+  font-weight:bold;
+}
+
+:local(.Button) svg {
+  width:21px;
+  height:21px;
+}
+
+:local(.Button):hover {
+  background:tomato;
+  color:white;
+  fill:white;
+  cursor:pointer;
+}

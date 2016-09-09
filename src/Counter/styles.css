@@ -1,0 +1,18 @@
+:local(.Counter) {
+  display:flex;
+  align-items:center;
+  padding:3px;
+}
+
+:local(.Name), :local(.Count) {
+  padding:0 5px;
+}
+
+:local(.Name) {
+  flex:1;
+}
+
+:local(.Count) {
+  min-width:21px;
+  text-align:center;
+}
